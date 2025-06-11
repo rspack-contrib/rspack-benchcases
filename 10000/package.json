@@ -1,8 +1,0 @@
-{
-  "name": "10000",
-  "dependencies": {
-    "@icon-park/react": "^1.4.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  }
-}
