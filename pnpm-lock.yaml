@@ -6,7 +6,9 @@ settings:
 
 importers:
 
-  '1000':
+  .: {}
+
+  basic-react:
     dependencies:
       '@iconify-icons/material-symbols':
         specifier: ^1.2.58
@@ -21,7 +23,7 @@ importers:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.0)
 
-  .: {}
+  threejs: {}
 
 packages:
 
