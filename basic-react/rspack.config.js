@@ -6,6 +6,9 @@ const prod = process.env.NODE_ENV === "production";
 /** @type {import("@rspack/cli").Configuration} */
 module.exports = {
   resolve: {
+    alias: {
+      "@swc/helpers": require.resolve("@swc/helpers"),
+    },
     extensions: [".js", ".jsx"],
   },
   entry: { main: "./src/index.jsx" },
