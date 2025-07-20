@@ -26,11 +26,7 @@ importers:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.0)
 
-  threejs:
-    dependencies:
-      '@swc/helpers':
-        specifier: ^0.5.17
-        version: 0.5.17
+  threejs: {}
 
 packages:
 
